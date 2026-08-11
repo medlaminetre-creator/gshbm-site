@@ -71,6 +71,29 @@ export default function Home() {
 
       {/* Statistiques */}
       <section className="max-w-7xl mx-auto py-10 px-6">
+        {/* Bannière Réussite */}
+<section className="max-w-7xl mx-auto py-8 px-6">
+  <div className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-white rounded-3xl shadow-xl p-8 text-center">
+
+    <h2 className="text-5xl font-extrabold mb-4">
+      🏆 100 % DE RÉUSSITE AU CEE 2026
+    </h2>
+
+    <p className="text-xl mb-6">
+      Le Groupe Scolaire Hadja Bintou Mara célèbre un taux de réussite exceptionnel au Certificat d'Études Élémentaires 2026.
+    </p>
+
+    <a
+      href="https://forecariahmedia.com/2026/07/08/cee-2026-le-groupe-scolaire-hadja-bintou-mara-signe-un-parcours-sans-faute-avec-100-de-reussite/?fbclid=IwZnRzaATn6GFwZG9mBWZkaWQWUMRKaf22ieh0iiLls6oHeCSexAGlp2V4dG4DYWVtAjExAHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6GKIzdAGQCFEkU0A0q6z_ggGPp0THWtEIqw99h38tLSO6BMLreXUNFLDX-dw_aem_ntL7RFvfnWR5APo-qUqS_g"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-white text-yellow-700 font-bold px-6 py-3 rounded-xl"
+    >
+      Lire l'article complet
+    </a>
+
+  </div>
+</section>
         <div className="grid md:grid-cols-4 gap-6">
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
             <h3 className="text-5xl font-bold text-sky-700">10</h3>
@@ -100,6 +123,20 @@ export default function Home() {
         </div>
       </section>
 
+{/* Nos Résultats */}
+<section className="max-w-7xl mx-auto py-12 px-6">
+  <div className="bg-yellow-100 border-4 border-yellow-500 rounded-3xl p-8 text-center">
+
+    <h2 className="text-5xl font-bold text-yellow-700 mb-4">
+      🏆 100 % DE RÉUSSITE AU CEE 2026
+    </h2>
+
+    <p className="text-xl">
+      Le Groupe Scolaire Hadja Bintou Mara a obtenu un taux de réussite de 100 % au CEE 2026.
+    </p>
+
+  </div>
+</section>
       {/* Pourquoi choisir */}
       <section className="max-w-7xl mx-auto py-12 px-6">
         <h2 className="text-4xl font-bold text-center text-sky-800 mb-10">
@@ -151,6 +188,26 @@ export default function Home() {
 
       {/* Pôles */}
       <section className="max-w-7xl mx-auto py-12 px-6">
+        ...
+</section>
+
+{/* Pourquoi choisir G.S.H.B.M */}
+<section>
+  ...
+</section>
+
+{/* Notre Vision */}
+<section>
+  ...
+</section>
+
+{/* Projet de Modernisation */}
+<section>
+  ...
+</section>
+
+{/* Pôles */}
+<section className="max-w-7xl mx-auto py-12 px-6">
         <h2 className="text-4xl font-bold text-center text-sky-800 mb-10">
           Nos Pôles d'Excellence
         </h2>
