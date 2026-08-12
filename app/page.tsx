@@ -123,20 +123,7 @@ export default function Home() {
         </div>
       </section>
 
-{/* Nos Résultats */}
-<section className="max-w-7xl mx-auto py-12 px-6">
-  <div className="bg-yellow-100 border-4 border-yellow-500 rounded-3xl p-8 text-center">
 
-    <h2 className="text-5xl font-bold text-yellow-700 mb-4">
-      🏆 100 % DE RÉUSSITE AU CEE 2026
-    </h2>
-
-    <p className="text-xl">
-      Le Groupe Scolaire Hadja Bintou Mara a obtenu un taux de réussite de 100 % au CEE 2026.
-    </p>
-
-  </div>
-</section>
       {/* Pourquoi choisir */}
       <section className="max-w-7xl mx-auto py-12 px-6">
         <h2 className="text-4xl font-bold text-center text-sky-800 mb-10">
