@@ -27,16 +27,16 @@ export default function Home() {
   <Image
     src="/Designer.png"
     alt="Logo GSHBM"
-    width={200}
-    height={200}
+    width={160}
+    height={160}
   />
 
 <div>
-  <h1 className="text-4xl font-extrabold tracking-wider">
+ <h1 className="text-5xl font-extrabold tracking-wider"> 
     G.S.H.B.M
   </h1>
 
-  <p className="text-sm">
+  <p className="text-2xl font-semibold">
     Groupe Scolaire Hadja Bintou Mara
   </p>
 </div>
