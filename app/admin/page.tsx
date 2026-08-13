@@ -1,20 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 
 export default function AdminPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [error, setError] = useState("");
 
   const handleLogin = () => {
     if (username === "admin" && password === "gshbm2026") {
       setIsLoggedIn(true);
-      setError("");
     } else {
-      setError("Nom d'utilisateur ou mot de passe incorrect");
+      alert("Nom d'utilisateur ou mot de passe incorrect");
     }
   };
 
@@ -27,10 +24,9 @@ export default function AdminPage() {
           </h1>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-            <Link
-              href="    📢 Gérer les annonces
-            </Link>
+            <div className="bg-white p-6 rounded-2xl shadow-lg">
+              📢 Gérer les annonces
+            </div>
 
             <div className="bg-white p-6 rounded-2xl shadow-lg">
               📷 Gérer les photos
@@ -51,7 +47,6 @@ export default function AdminPage() {
             <div className="bg-white p-6 rounded-2xl shadow-lg">
               💻 Salle informatique
             </div>
-
           </div>
         </div>
       </main>
@@ -61,7 +56,6 @@ export default function AdminPage() {
   return (
     <main className="min-h-screen bg-slate-100 flex items-center justify-center p-6">
       <div className="bg-white shadow-xl rounded-3xl p-10 w-full max-w-md">
-
         <h1 className="text-4xl font-bold text-center text-sky-700 mb-2">
           G.S.H.B.M
         </h1>
@@ -71,7 +65,6 @@ export default function AdminPage() {
         </p>
 
         <div className="space-y-4">
-
           <input
             type="text"
             placeholder="Nom d'utilisateur"
@@ -88,19 +81,12 @@ export default function AdminPage() {
             className="w-full border rounded-xl p-3"
           />
 
-          {error && (
-            <p className="text-red-600 text-sm">
-              {error}
-            </p>
-          )}
-
           <button
             onClick={handleLogin}
             className="w-full bg-sky-700 text-white py-3 rounded-xl font-bold"
           >
             Se connecter
           </button>
-
         </div>
       </div>
     </main>
