@@ -69,6 +69,23 @@ export default function Home() {
         </div>
       </section>
 
+{/* Actualités de l'école */}
+<section className="max-w-7xl mx-auto py-8 px-6">
+  <div className="bg-white rounded-3xl shadow-lg p-6">
+
+    <h2 className="text-3xl font-bold text-sky-700 mb-4">
+      📢 Actualités de l'école
+    </h2>
+
+    <ul className="space-y-3 text-lg">
+      <li>📢 Début des inscriptions 2026-2027</li>
+      <li>🏆 100 % de réussite au CEE 2026</li>
+      <li>📚 Ouverture prochaine de la bibliothèque</li>
+      <li>⚽ Développement du pôle sportif</li>
+    </ul>
+
+  </div>
+</section>
       {/* Statistiques */}
       <section className="max-w-7xl mx-auto py-10 px-6">
         {/* Bannière Réussite */}
